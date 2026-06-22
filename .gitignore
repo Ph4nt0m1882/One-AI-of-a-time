@@ -1,0 +1,21 @@
+.env
+*.bak
+
+# Environnements virtuels (uv)
+.venv
+venv
+ENV
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Fichiers générés par notre script de distillation
+*.jsonl
+*.csv
+autotrain_images/
+gen_image_*.png
+gen_audio_*.flac
